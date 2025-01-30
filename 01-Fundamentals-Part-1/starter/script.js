@@ -17,3 +17,11 @@ let job1 = "teacher";
 let job2 = "student";
 
 console.log(myFirstJob);
+
+let country = 'Ukraine';
+let continent = 'Europe';
+let population = 43;
+
+console.log(country);
+console.log(continent);
+console.log(population);
