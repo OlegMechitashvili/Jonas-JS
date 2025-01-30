@@ -27,7 +27,7 @@ let population = 43;
 
 console.log(country);
 console.log(continent);
-console.log(population);*/
+console.log(population);
 
 //DATA TYPES
 
@@ -58,4 +58,18 @@ year = 1971;
 console.log(year);
 console.log(typeof year);
 
-console.log(typeof null);
+console.log(typeof null);*/
+
+// LET CONST and VAR
+
+let age = 31;
+age = 55;
+
+const birthYear = 1971;
+
+// birthYear = 1950;  Uncaught typeError: assigment to constant variable;
+
+// const job; Uncaught SyntaxError: Missing initializer in const declaration;
+
+var job = 'coder';
+job = 'programmer';
