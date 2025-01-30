@@ -1,4 +1,7 @@
-let js = 'amazing';
+
+//VALUES AND VARIABLES
+
+/*let js = 'amazing';
 console.log(40 + 8 + 23 - 10);
 
 let firstName = "Oleh";
@@ -24,4 +27,35 @@ let population = 43;
 
 console.log(country);
 console.log(continent);
-console.log(population);
+console.log(population);*/
+
+//DATA TYPES
+
+//let age = 23; number
+//let name = 'Oleh'; string
+//let fullAge = true; boolean
+//undefined - value taken by the variable that is not yet defined ('empty value');
+//null - also mmean 'empty value';
+//Symbol(ES2015): Value that is unique and cannot be changed;
+//BigInt(ES2020) - Larger integer than the Nummber type can hold;
+
+let javaScriptIsFun = true;
+// console.log(javaScriptIsFun);
+
+// console.log(typeof true);
+console.log(typeof javaScriptIsFun);
+// console.log(typeof 23);
+// console.log(typeof 'true');
+
+javaScriptIsFun = 'YES!';
+console.log(typeof javaScriptIsFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+year = 1971;
+console.log(year);
+console.log(typeof year);
+
+console.log(typeof null);
